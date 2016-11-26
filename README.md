@@ -247,6 +247,7 @@ or
 	./SSWScala.sh AGCT ACT
 	
 result:
+
 	./SSWLearning.sh 
 	Aligning nucleotides
 	4
