@@ -228,3 +228,31 @@ To use the library, either reference the ssw.jar or including the Aligner and Al
 
 ###Please cite this paper, if you need:
 http://dx.plos.org/10.1371/journal.pone.0082138
+
+## Example of running by Java
+
+	cd src
+	./Example.sh 
+	
+result:
+	Aligning nucleotides
+	score1=21 score2=8 ref_begin1=8 ref_end1=21 read_begin1=0 read_end1=14 ref_end2=4 cigar=9M1I5M 
+
+## Example of running by Scala
+
+	cd src
+	./SSWLearning.sh  
+or
+
+	./SSWScala.sh AGCT ACT
+	
+result:
+	./SSWLearning.sh 
+	Aligning nucleotides
+	4
+	
+	./SSWScala.sh AGCT ACT
+	Aligning nucleotides
+	4
+
+
