@@ -89,7 +89,7 @@ struct _profile{
 static __m128i* qP_byte (const int8_t* read_num,
 				  const int8_t* mat,
 				  const int32_t readLen,
-				  const int32_t n,	/* the edge length of the squre matrix mat */
+				  const int32_t n,	/* the edge length of the square matrix mat */
 				  uint8_t bias) {
 
 	int32_t segLen = (readLen + 15) / 16; /* Split the 128 bit register into 16 pieces.
